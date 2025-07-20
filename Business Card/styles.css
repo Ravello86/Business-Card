@@ -15,7 +15,15 @@ body{
     color: #e5e5e5;
     padding: 20px;
     border-radius: 10px;
-    border-bottom: 10px solid #14213d ;
     justify-content: space-around;
     text-align: center;
+    box-shadow: 10px 5px 5px darkblue;
+    animation: 3s linear 1s infinite alternate slide-in;
+}
+
+.Card:hover {
+    background-color: black;
+    color:greenyellow;
+    box-shadow: 10px 5px 5px ;
+    
 }
